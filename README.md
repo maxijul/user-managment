@@ -35,3 +35,22 @@ La idea es que utilicéis las herramientas que hemos ido viendo a lo largo de lo
 
 -   La aplicación deberá poderse ejecutar con la versión LTS de Node.JS(16).
 -   Se puede utilizar cualquier base de datos, aunque es recomendable utilizar Mongo.DB ya que es la que hemos explicado en los videos.
+
+## Librerias que se usan
+
+- dotenv
+    - Sirve para poder gestionar y usar nuestras variables de entorno
+- express
+    - Framework para hacer nuestra api rest
+- mongoose
+    - ORM de mongodb para trabajar con nuestra base de datos
+- typebox
+    - Libreria que nos sirve para definir los schemas
+- ajv
+    - Sirve para extender las funcionalidades de validacion de los schemas
+- ajv-errors
+    - Sirve para customizar los errores
+- jose
+    - Libreria que sirve para gestionar los json web tokens
+- bcrypt
+    - Libreria para la encriptacion de contraseñas
